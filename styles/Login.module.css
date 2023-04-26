@@ -1,0 +1,44 @@
+.userInput {
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+  border: solid 1px blue;
+  padding: 5px 10px;
+  margin-right: 30px;
+}
+
+.userInput:focus {
+  border: solid 2px rgb(12, 12, 110) !important;
+  outline: none !important;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginButton {
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: white;
+  border-radius: 5px;
+  border: solid 1px rgb(4, 97, 81);
+  letter-spacing: 1px;
+  background-color: rgb(21, 134, 115);
+}
+
+.notification {
+  width: 100%;
+  height: 40px;
+  color: rgb(117, 36, 36);
+  background-color: rgb(110, 48, 12, 0.5);
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 8px;
+}
